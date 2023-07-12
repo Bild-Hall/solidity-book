@@ -1,4 +1,4 @@
-lockfileVersion: 5.4
+lockfileVersion: 5.3
 
 importers:
 
@@ -32,19 +32,19 @@ importers:
     devDependencies:
       '@nota-lang/esbuild-utils': 0.4.12_esbuild@0.14.54
       '@testing-library/jest-dom': 5.16.5
-      '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
+      '@testing-library/react': 13.4.0_react-dom@18.2.0+react@18.2.0
       '@trivago/prettier-plugin-sort-imports': 3.4.0_prettier@2.8.2
       '@types/expect-puppeteer': 5.0.2
       '@types/jest': 28.1.8
       '@types/jest-environment-puppeteer': 5.0.3
       '@types/puppeteer': 5.4.7
-      '@typescript-eslint/eslint-plugin': 5.48.1_3jon24igvnqaqexgwtxk6nkpse
-      '@typescript-eslint/parser': 5.48.1_iukboom6ndih5an6iafl45j2fe
+      '@typescript-eslint/eslint-plugin': 5.48.1_da5cdd7106ab600812e6b4eeaf354f91
+      '@typescript-eslint/parser': 5.48.1_eslint@8.31.0+typescript@4.9.4
       esbuild: 0.14.54
       esbuild-jest: 0.5.0_esbuild@0.14.54
       esbuild-plugin-sass: 1.0.1_esbuild@0.14.54
       eslint: 8.31.0
-      eslint-plugin-prettier: 4.2.1_k3hr3m6agcryggk5vamhhr56wi
+      eslint-plugin-prettier: 4.2.1_eslint@8.31.0+prettier@2.8.2
       eslint-plugin-react: 7.31.11_eslint@8.31.0
       jest: 28.1.3
       jest-environment-jsdom: 28.1.3
@@ -95,8 +95,8 @@ importers:
       md5: 2.3.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      react-modal: 3.15.1_biqbaboplfbrettd7655fr4n2y
-      react-popper: 2.3.0_ili5ylfne7i3hkfpsanzgkfu6m
+      react-modal: 3.15.1_react-dom@18.2.0+react@18.2.0
+      react-popper: 2.3.0_42d1dc2cad27d1b3a8af901b9328b4f3
       telemetry: link:../telemetry
       web-highlighter: 0.7.4
 
@@ -1090,7 +1090,7 @@ packages:
       redent: 3.0.0
     dev: true
 
-  /@testing-library/react/13.4.0_biqbaboplfbrettd7655fr4n2y:
+  /@testing-library/react/13.4.0_react-dom@18.2.0+react@18.2.0:
     resolution: {integrity: sha512-sXOGON+WNTh3MLE9rve97ftaZukN3oNf2KjDy7YTx6hcTO2uuLHuCGynMDhFwGw/jYf4OJ2Qk0i4i79qMNNkyw==}
     engines: {node: '>=12'}
     peerDependencies:
@@ -1333,7 +1333,7 @@ packages:
     dev: true
     optional: true
 
-  /@typescript-eslint/eslint-plugin/5.48.1_3jon24igvnqaqexgwtxk6nkpse:
+  /@typescript-eslint/eslint-plugin/5.48.1_da5cdd7106ab600812e6b4eeaf354f91:
     resolution: {integrity: sha512-9nY5K1Rp2ppmpb9s9S2aBiF3xo5uExCehMDmYmmFqqyxgenbHJ3qbarcLt4ITgaD6r/2ypdlcFRdcuVPnks+fQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -1344,10 +1344,10 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@typescript-eslint/parser': 5.48.1_iukboom6ndih5an6iafl45j2fe
+      '@typescript-eslint/parser': 5.48.1_eslint@8.31.0+typescript@4.9.4
       '@typescript-eslint/scope-manager': 5.48.1
-      '@typescript-eslint/type-utils': 5.48.1_iukboom6ndih5an6iafl45j2fe
-      '@typescript-eslint/utils': 5.48.1_iukboom6ndih5an6iafl45j2fe
+      '@typescript-eslint/type-utils': 5.48.1_eslint@8.31.0+typescript@4.9.4
+      '@typescript-eslint/utils': 5.48.1_eslint@8.31.0+typescript@4.9.4
       debug: 4.3.4
       eslint: 8.31.0
       ignore: 5.2.4
@@ -1360,7 +1360,7 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/parser/5.48.1_iukboom6ndih5an6iafl45j2fe:
+  /@typescript-eslint/parser/5.48.1_eslint@8.31.0+typescript@4.9.4:
     resolution: {integrity: sha512-4yg+FJR/V1M9Xoq56SF9Iygqm+r5LMXvheo6DQ7/yUWynQ4YfCRnsKuRgqH4EQ5Ya76rVwlEpw4Xu+TgWQUcdA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -1388,7 +1388,7 @@ packages:
       '@typescript-eslint/visitor-keys': 5.48.1
     dev: true
 
-  /@typescript-eslint/type-utils/5.48.1_iukboom6ndih5an6iafl45j2fe:
+  /@typescript-eslint/type-utils/5.48.1_eslint@8.31.0+typescript@4.9.4:
     resolution: {integrity: sha512-Hyr8HU8Alcuva1ppmqSYtM/Gp0q4JOp1F+/JH5D1IZm/bUBrV0edoewQZiEc1r6I8L4JL21broddxK8HAcZiqQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -1399,7 +1399,7 @@ packages:
         optional: true
     dependencies:
       '@typescript-eslint/typescript-estree': 5.48.1_typescript@4.9.4
-      '@typescript-eslint/utils': 5.48.1_iukboom6ndih5an6iafl45j2fe
+      '@typescript-eslint/utils': 5.48.1_eslint@8.31.0+typescript@4.9.4
       debug: 4.3.4
       eslint: 8.31.0
       tsutils: 3.21.0_typescript@4.9.4
@@ -1434,7 +1434,7 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/utils/5.48.1_iukboom6ndih5an6iafl45j2fe:
+  /@typescript-eslint/utils/5.48.1_eslint@8.31.0+typescript@4.9.4:
     resolution: {integrity: sha512-SmQuSrCGUOdmGMwivW14Z0Lj8dxG1mOFZ7soeJ0TQZEJcs3n5Ndgkg0A4bcMFzBELqLJ6GTHnEU+iIoaD6hFGA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -1609,8 +1609,6 @@ packages:
     dependencies:
       micromatch: 3.1.10
       normalize-path: 2.1.1
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /anymatch/3.1.3:
@@ -1901,8 +1899,6 @@ packages:
       snapdragon-node: 2.1.1
       split-string: 3.1.0
       to-regex: 3.0.2
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /braces/3.0.2:
@@ -2276,11 +2272,6 @@ packages:
 
   /debug/2.6.9:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
     dependencies:
       ms: 2.0.0
     dev: true
@@ -2810,7 +2801,7 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-plugin-prettier/4.2.1_k3hr3m6agcryggk5vamhhr56wi:
+  /eslint-plugin-prettier/4.2.1_eslint@8.31.0+prettier@2.8.2:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -3034,8 +3025,6 @@ packages:
       regex-not: 1.0.2
       snapdragon: 0.8.2
       to-regex: 3.0.2
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /expand-tilde/1.2.2:
@@ -3087,8 +3076,6 @@ packages:
       regex-not: 1.0.2
       snapdragon: 0.8.2
       to-regex: 3.0.2
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /extract-zip/2.0.1:
@@ -4313,8 +4300,6 @@ packages:
       walker: 1.0.8
     optionalDependencies:
       fsevents: 2.3.2
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /jest-haste-map/28.1.3:
@@ -4983,8 +4968,6 @@ packages:
       regex-not: 1.0.2
       snapdragon: 0.8.2
       to-regex: 3.0.2
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /micromatch/4.0.5:
@@ -5090,8 +5073,6 @@ packages:
       regex-not: 1.0.2
       snapdragon: 0.8.2
       to-regex: 3.0.2
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /natural-compare-lite/1.4.0:
@@ -5617,7 +5598,7 @@ packages:
     resolution: {integrity: sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==}
     dev: true
 
-  /react-modal/3.15.1_biqbaboplfbrettd7655fr4n2y:
+  /react-modal/3.15.1_react-dom@18.2.0+react@18.2.0:
     resolution: {integrity: sha512-duB9bxOaYg7Zt6TMFldIFxQRtSP+Dg3F1ZX3FXxSUn+3tZZ/9JCgeAQKDg7rhZSAqopq8TFRw3yIbnx77gyFTw==}
     engines: {node: '>=8'}
     peerDependencies:
@@ -5632,7 +5613,7 @@ packages:
       warning: 4.0.3
     dev: true
 
-  /react-popper/2.3.0_ili5ylfne7i3hkfpsanzgkfu6m:
+  /react-popper/2.3.0_42d1dc2cad27d1b3a8af901b9328b4f3:
     resolution: {integrity: sha512-e1hj8lL3uM+sgSR4Lxzn5h1GxBlpa4CQz0XLF8kx4MDrDRWY0Ena4c97PUeSX9i5W3UAfDP0z0FXCTQkoXUl3Q==}
     peerDependencies:
       '@popperjs/core': ^2.0.0
@@ -5855,8 +5836,6 @@ packages:
       micromatch: 3.1.10
       minimist: 1.2.7
       walker: 1.0.8
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /sass/1.47.0:
@@ -5999,8 +5978,6 @@ packages:
       source-map: 0.5.7
       source-map-resolve: 0.5.3
       use: 3.1.1
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /source-map-js/1.0.2:

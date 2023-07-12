@@ -35,13 +35,30 @@ rust-lang/rust uses in [this file][rust-mdbook]. To get it:
 $ cargo install mdbook --version <version_num>
 ```
 
+You will need to initialize the `js-extensions/` sub-project, and for that you will need to install [pnpm](https://pnpm.io/installation)
+
+Finally, install the `spellchecker` and `graco` NPM packages:
+
+`npm install -g spellchecker graco`
+
 ## Building
+
+First, initialize the `js-extensions` sub-project:
+
+```bash
+cd js-extensions
+pnpm init-repo
+```
 
 To build the book, type:
 
 ```bash
 $ mdbook build
 ```
+
+Note: you may see an error where your system cannot find the `spellchecker` NPM package. If you do, then you need to identify where your global NPM packages are installed, and set the env var `NODE_PATH` equal to it. For me I had to do:
+
+`export NODE_PATH=$HOME/.nvm/versions/node/v16.18.0/lib/node_modules`
 
 The output will be in the `book` subdirectory. To check it out, open it in
 your web browser.
